@@ -1,0 +1,58 @@
+main {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+}
+
+#gameContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.subHeader {
+  grid-column: 1/4;
+  display: grid;
+  justify-content: center;
+}
+
+.reset {
+  grid-column: 2/3;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.item {
+  height: 100px;
+  background-color: brown;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.selected {
+  background-color: blue;
+}
+
+.winner {
+  color: green;
+  font-size: "large";
+}
+
+.loser {
+  color: red;
+  font-size: large;
+}
+
+.tie {
+  color: burlywood;
+  font-size: large;
+}
